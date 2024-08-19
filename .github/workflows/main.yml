@@ -28,13 +28,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-<<<<<<< HEAD
-      - name: Run tests
-        run: npm run test
-=======
-    # - name: Run tests
-    #   run: npm run test
->>>>>>> bb2600d3383ec4b3767d44465a805c27bf7ea30b
+      # - name: Run tests
+      #   run: npm run test
 
   deploy:
     runs-on: ubuntu-latest
